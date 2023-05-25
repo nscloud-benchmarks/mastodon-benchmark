@@ -3,7 +3,7 @@ name: Upstream Sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: "25 * * * *" # hourly sync, triggers a benchmark only if upstream was changed.
+    - cron: "55 * * * *" # hourly sync, triggers a benchmark only if upstream was changed.
 
 jobs:
   sync:
