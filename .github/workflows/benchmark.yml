@@ -33,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - run: git submodule update --init posthog
+      - run: git submodule update --init mastodon
 
       - uses: namespacelabs/nscloud-setup@v0
 
